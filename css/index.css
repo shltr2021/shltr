@@ -1,3 +1,10 @@
+.container {
+    max-width: 600px;
+    /* display: flex; */
+    margin: 0 auto;
+}
+
+
 /*******************/
 /***** WELCOME *****/
 /*******************/
@@ -23,12 +30,29 @@
     font-size: 1.9em;
 }
 .welcome .subheading {
+    display: flex;
     text-align: center;
     margin: 0 2em;
     font-size: .9em;
     max-width: 300px;
 }
 
+@media screen and (min-width: 768px) {
+    .welcome {
+        height: 100vh;
+    }
+    .welcome .heading {
+        font-size: 3.5em;
+    }
+    .welcome .subheading {
+        font-size: 1.5em;
+        max-width: 600px;
+    }
+    .welcome .hero {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
 
 
 
@@ -45,6 +69,14 @@
     max-width: 500px;
     margin: 0 auto;
 } */
+
+
+@media screen and (min-width: 768px) {
+    .problem .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
 
 
 
@@ -66,6 +98,11 @@
     display: flex;
     margin: 0 auto;
     justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .solution .blurb {
+        padding: 3em 0;
+    }
 }
 
 
@@ -90,6 +127,18 @@
     display: flex;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    .how-it-works .icon-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .how-it-works .onboard-icon {
+        width: 3em;
+    }
+
+}
+
 
 
 
