@@ -1,3 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap');
 
+:root {
+
+    /*COLOURS*/
+    /* Neutral */
+    --neutral_light: rgb(255, 255, 255); /*#ffffff*/
+    --neutral_medium: rgb(201, 201, 201);
+    --neutral_normal: rgb(132, 128, 128);
+    --neutral_dark: rgb(51, 51, 51);
+
+    /* Pink */
+    --pink_light: rgb(254, 231, 230);
+    --pink_medium: rgb(253, 184, 179);
+    --pink_normal: rgb(252, 122, 128);
+    --pink_bold: rgb(252, 76, 94);
+
+    /* Blue */
+    --blue_light: rgb(219, 230, 236);
+    --blue_medium: rgb(146, 181, 199);
+    --blue_normal: rgb(73, 131, 161);
+    --blue_bold: rgb(24, 104, 140);
+
+    /*FONTS*/
+    --text__heading: 'Poppins', sans-serif;
+    --text__subheading: 'Poppins', sans-serif;
+    --text__main: 'Open Sans', sans-serif;
+
+
+}
