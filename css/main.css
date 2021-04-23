@@ -33,7 +33,7 @@
 
 
 /* General */
-.image {
+.image, .gif, .video {
     width: 100%;
 }
 
