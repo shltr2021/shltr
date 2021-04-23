@@ -29,3 +29,80 @@
 
 
 }
+
+
+
+/* General */
+.image {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+.heading {
+    font-family: var(--text__heading);
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: .5em;
+    line-height: 140%;
+}
+.subheading {
+    font-family: var(--text__subheading);
+    line-height: 140%;
+}
+.body-text {
+    font-family: var(--text__main);
+    /* text-align: center; */
+    line-height: 140%;
+    padding-bottom: 1em;
+}
+
+
+/* Header */
+.header {
+    background-color: var(--neutral_light);
+    /* opacity: .5; */
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px var(--neutral_dark);
+    padding: 0 1.25em;
+}
+.nav {
+    display: flex;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.name {
+    font-family: var(--text__heading);
+    font-size: 1em;
+    padding-left: 1em
+}
+.logo {
+    /* height: auto; */
+    width: 2em;
+    /* display: flex; */
+    /* padding: 1em; */
+    
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav li {
+    display: flex;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--neutral_dark);
+    padding: 1em;
+
+}
