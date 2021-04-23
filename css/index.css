@@ -1,0 +1,29 @@
+/* Welcome */
+
+.welcome {
+    background-color: var(--blue_normal);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome .hero {
+    opacity: .5;
+}
+.welcome .blurb {
+    color: var(--neutral_light);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.welcome .heading {
+    font-size: 1.9em;
+}
+.welcome .subheading {
+    text-align: center;
+    margin: 0 2em;
+    font-size: .9em;
+    max-width: 300px;
+}
