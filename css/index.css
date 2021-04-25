@@ -5,48 +5,87 @@
 /***** WELCOME *****/
 /*******************/
 .welcome {
-    background-color: var(--blue_normal);
+    background-color: var(--pink_light);
+    padding: 3em;
+    padding-top: var(--header-height);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* min-height: 100vh; */
 }
-.welcome .hero {
+/* .welcome .hero {
     opacity: .5;
-}
+} */
 .welcome .blurb {
-    color: var(--neutral_light);
-    position: absolute;
+    color: var(--neutral_dark);
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    /* margin-top: 2em; */
+}
+.welcome .hero {
+    max-width: 500px;
 }
 .welcome .heading {
-    font-size: 1.9em;
+    font-size: 3em;
+    padding-bottom: 0;
 }
 .welcome .subheading {
     display: flex;
     text-align: center;
     margin: 0 2em;
-    font-size: .9em;
-    max-width: 300px;
+    font-size: 1.25em;
+    /* max-width: 300px; */
 }
 
 @media screen and (min-width: 768px) {
-    .welcome {
+    /* .welcome {
         height: 100vh;
+    } */
+    .welcome .hero {
+        max-width: 400px;
     }
     .welcome .heading {
         font-size: 3.5em;
     }
     .welcome .subheading {
-        font-size: 1.5em;
+        font-size: 1.75em;
         max-width: 600px;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    .welcome {
+        flex-direction: row;
+        padding: 5em;
+    }
+    .welcome .blurb {
+        width: 50vw;
+    }
+    .welcome .image-container {
+        width: 50vw;
+    }
     .welcome .hero {
-        height: 100vh;
-        object-fit: cover;
+        width: 100%;
+        max-width: 500px;
+    }
+    .welcome .heading {
+        text-align: left;
+        font-size: 4em;
+        padding-bottom: 0;
+    }
+    .welcome .subheading {
+        text-align: left;
+        margin: 0;
+        font-size: 2.25em;
+    }
+    .welcome .container {
+        max-width: none;
+    }
+    .welcome .subsection {
+        padding: 2em;
     }
 }
 

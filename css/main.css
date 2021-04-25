@@ -27,6 +27,8 @@
     --text__subheading: 'Poppins', sans-serif;
     --text__main: 'Open Sans', sans-serif;
 
+    /* Header height */
+    --header-height: 76px;
 
 }
 
