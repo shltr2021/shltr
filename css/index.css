@@ -116,7 +116,7 @@
 }
 @media screen and (min-width: 1024px) {
     .problem {
-        padding: 9em;
+        padding: 7em;
         text-align: center;
     }
     .problem .container {
@@ -216,7 +216,7 @@
 
 @media screen and (min-width: 1024px) {
     .how-it-works {
-        padding: 9em;
+        padding: 7em;
     }
     /* .how-it-works .container{
         max-width: 900px;
@@ -269,7 +269,7 @@
 }
 @media screen and (min-width: 1024px) {
     .experience-shltr {
-        padding: 5em;
+        padding: 7em;
     }
 }
 
@@ -283,11 +283,7 @@
     background-color: var(--blue_light);
     padding: 3em;
 }
-.summary .iso-image .image {
-    max-width: 400px;
-    display: flex;
-    margin: 0 auto;
-}
+
 /* @media screen and (min-width: 768px) {
     .summary .iso-image .image {
         max-width: 400px;
@@ -300,20 +296,16 @@
     .summary {
         display: flex;
         flex-direction: row-reverse;
-        padding: 0em;
+        padding: 7em;
     }
     .summary .blurb {
-        width: 50vw;
-        padding: 7em;
         max-width: 700px;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         justify-content: center;
     }
-    .summary .iso-image {
-        width: 50vw;
-    }
+
 }
 
 
