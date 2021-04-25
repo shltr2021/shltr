@@ -23,7 +23,7 @@
     /* position: absolute; */
     display: flex;
     flex-direction: column;
-    /* margin-top: 2em; */
+    margin-top: 2em;
 }
 .welcome .hero {
     max-width: 500px;
@@ -35,7 +35,7 @@
 .welcome .subheading {
     display: flex;
     text-align: center;
-    margin: 0 2em;
+    /* margin: 0 2em; */
     font-size: 1.25em;
     /* max-width: 300px; */
 }
@@ -58,11 +58,13 @@
 
 @media screen and (min-width: 1024px) {
     .welcome {
-        flex-direction: row;
+        flex-direction: row-reverse;
         padding: 5em;
+        height: 100vh;
     }
     .welcome .blurb {
         width: 50vw;
+        margin-top: 0;
     }
     .welcome .image-container {
         width: 50vw;
