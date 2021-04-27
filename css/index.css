@@ -311,13 +311,3 @@
 
 
 
-/*******************/
-/***** SUMMARY *****/
-/*******************/
-.footer {
-    background-color: var(--neutral_dark);
-    color: var(--neutral_light);
-    text-align: center;
-    margin: 0 auto;
-    padding: .5em;
-}

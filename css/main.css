@@ -158,6 +158,9 @@
     /* padding: 1em; */
     
 }
+.nav a {
+    font-size: 1em;
+}
 .nav ul {
     display: flex;
     align-items: center;
@@ -189,4 +192,14 @@
     .logo {
         width: 3em;        
     }
+}
+
+
+/* Footer  */
+.footer {
+    background-color: var(--neutral_dark);
+    color: var(--neutral_light);
+    text-align: center;
+    margin: 0 auto;
+    padding: .5em;
 }

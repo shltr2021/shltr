@@ -1,0 +1,136 @@
+/*************************/
+/***** THE MAKING OF *****/
+/*************************/
+.the-making-of {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue_bold);
+
+}
+.the-making-of .hero {
+    object-fit: cover;
+    height: 100vh;
+    opacity: .6;
+}
+.the-making-of .heading {
+    color: var(--neutral_light);
+    position: absolute;
+    top: 45%;
+    padding: 0 2em;
+}
+
+
+
+
+
+/***************************/
+/***** DESIGN QUESTION *****/
+/***************************/
+
+.design-question {
+    background-color: var(--pink_medium);
+    padding: 3em;
+}
+.design-question p {
+    text-align: center;
+}
+
+
+
+
+/*********************/
+/***** PRECEDENT *****/
+/*********************/
+.precedents .main {
+    padding: 3em;
+}
+
+
+.precedent-one .blurb {
+    background-color: var(--blue_light);
+    padding: 3em;
+}
+
+.precedent-two .blurb {
+    background-color: var(--blue_light);
+    padding: 3em;
+}
+
+.precedents .image {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* max-width: 600px; */
+}
+
+
+
+/**********************/
+/***** LONELINESS *****/
+/**********************/
+.loneliness {
+    background-color: var(--pink_light);
+}
+.loneliness .blurb {
+    padding: 3em;
+}
+
+
+/********************/
+/***** BRANDING *****/
+/********************/
+.branding .blurb {
+    padding: 3em;
+}
+.logo-grid {
+    display: flex;
+    width: 100%;
+}
+.logo-grid div {
+    /* height: 100%; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+/* .logo-grid .image {
+    width: 50%;
+} */
+.logo-grid .pink {
+    background-color: var(--pink_light);
+}
+
+.logo-grid .blue {
+    background-color: var(--blue_light);
+}
+
+
+
+/**********************/
+/***** PROTOTYPES *****/
+/**********************/
+.prototypes .main {
+    padding: 3em;
+}
+
+.prototype-one {
+    background-color: var(--pink_light);
+}
+.prototype-one .blurb {
+    padding: 3em;
+}
+
+.prototype-two {
+    background-color: var(--blue_light);
+}
+.prototype-two .blurb {
+    padding: 3em;
+}
+
+.prototype-final .body-text {
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
